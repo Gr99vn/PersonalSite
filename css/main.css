@@ -367,7 +367,7 @@
     font-size: 200% !important;
   }
   .about .hobbies .carousel-item {
-    height: 25vh;
+    height: 170px !important;
   }
   .contact {
     padding-top: 3rem;
