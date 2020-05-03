@@ -1,0 +1,40 @@
+$primary-color: #222831;
+$secondary-color: #393e46;
+$tertiary-color: #00adb5;
+$fourth-color: #eeeeee;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin transition-ease {
+  transition: all 0.3s ease-in-out;
+}
+
+@mixin media-sm {
+  @media screen and (max-width: 460px) {
+    @content;
+  }
+}
+
+@mixin media-md {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+
+}
+@mixin media-lg {
+  @media screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@function set-text-color($color) {
+  @if (lightness($color) > 40%) {
+    @return $secondary-color;
+  } @else {
+    @return $fourth-color;
+  }
+}

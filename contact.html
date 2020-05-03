@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Home</title>
+
+    <!-- Bootstrap4.4 css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-btn">
+        <div class="nav-btn__burger"></div>
+      </div>
+      <nav class="nav">
+        <ul class="nav-menu">
+          <li class="nav-menu__item">
+            <a href="index.html" class="nav-menu__link">
+              Home
+            </a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="about.html" class="nav-menu__link">
+              About
+            </a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="projects.html" class="nav-menu__link">
+              Projects
+            </a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="contact.html" class="nav-menu__link">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact">
+        <form class="contact__form">
+          <h4 class="contact__form-title">Get in touch</h4>
+          <div class="contact__form-item">
+            <input class="input input-name" type="text" name="name" placeholder="Name" autocomplete="off"> 
+            <input class="input input-email" type="text" name="email" placeholder="Email" autocomplete="off">
+            <input class="input input-subject" type="text" name="subject" placeholder="Subject" autocomplete="off">
+            <textarea class="input input-message" name="message" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="contact__form-btn btn btn-primary"><span>Send Email <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></button>
+        </form>
+        <footer>&copy; Copyright 2020</footer>
+      </section>
+    </main>
+
+    <!-- Bootstrap4.4 js -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/dcc0a8247b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Smtp js -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

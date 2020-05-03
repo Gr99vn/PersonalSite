@@ -1,0 +1,48 @@
+.home {
+  height: 100%;
+  padding-top: 13%;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgba($primary-color, 0.9),
+    rgba($primary-color, 0.2)
+    ),
+    url("../img/project-6.jpg") center;
+  background-size: cover;
+    
+
+  &__portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &-visual {
+      padding: 1rem;
+      
+      &--avatar {
+        width: 10rem;
+        border-radius: 50%;
+      }
+      
+      &--icons {
+        margin-top: 1rem;
+        
+        a {
+          color: $fourth-color;
+          padding: 0.4rem;
+          @include transition-ease;
+          
+          &:hover {
+            color: $tertiary-color;
+          }
+        }
+      }
+    }
+
+    &-info {
+      padding: 1rem;
+    }
+  }
+}

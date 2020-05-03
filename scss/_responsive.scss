@@ -1,0 +1,82 @@
+@include media-sm {
+  
+  * {
+    font-size: small;
+  }
+
+  .about {
+
+
+    .basic__container {
+      &--timeline .dash {
+        display: none;
+      }
+    }
+
+    .hobbies {
+      .icon-size {
+        font-size: 200% !important;
+      }
+
+      .carousel-item {
+          height: 25vh;
+      }
+    }
+  }
+
+  .contact {
+    padding-top: 3rem;
+  }
+  
+}
+
+@include media-md {
+
+  .home {
+
+    &__portfolio {
+      flex-direction: column;
+    }
+  }
+
+  .about {
+    
+    .basic__container {
+      flex-direction: column;
+
+      &--visual {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .hobbies {
+
+      .carousel-item {
+        height: 40vh;
+      }
+
+      .icon-size {
+        font-size: 300% !important;
+        margin: 0.4rem !important;
+      }
+
+      h4 {
+        font-size: small;
+      }
+    }
+  }
+
+  .contact__form {
+    padding: 2rem 10%;
+    
+    .contact__form-item {
+      padding: 0 10%;
+    }
+  }
+}
+
+@include media-lg {
+  .contact__form {
+    padding: 2rem 10%;
+  }
+}

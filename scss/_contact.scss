@@ -1,0 +1,30 @@
+.contact {
+  text-align: center;
+  
+  &__form {
+    padding: 4rem 10%;
+
+    &-title {
+      margin-bottom: 2rem;
+    }
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      padding: 0 20%;
+    }
+
+    input, textarea, .contact__form-btn {
+      margin-bottom: 1rem;
+      outline: none;
+      border: none;
+      border-radius: 25px;
+      padding: 0.4rem 1rem;
+    }
+
+    textarea {
+      min-height: 150px;
+      padding: 1rem;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.projects {
+  padding: 0 10%;
+
+  h2 {
+    margin: 2rem 0;
+  }
+
+  &__intro {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.3)
+      ),
+      url("../img/project-6.jpg") center;
+    background-size: cover;
+    }
+
+  &__container {
+    margin: 0;
+    padding: 2rem 1rem;
+    background: $secondary-color;
+
+    .col .card {
+      color: set-text-color($fourth-color);
+      
+      .card-body a:hover {
+        color: $tertiary-color;
+      }
+    }
+  }
+
+  footer {
+    position: fixed;
+    width: initial;
+    right: 0.4rem;
+    text-align: right;
+    transform: rotate(90deg) translate(-3rem, -5rem);
+  }  
+}
