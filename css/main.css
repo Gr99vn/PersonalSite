@@ -388,6 +388,9 @@
     flex-wrap: wrap;
     margin-top: 2rem;
   }
+  .about .hobbies h4 {
+    font-size: small;
+  }
   .projects {
     text-align: center;
   }
