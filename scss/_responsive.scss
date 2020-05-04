@@ -1,12 +1,26 @@
 @include media-sm {
-  
   * {
     font-size: small;
   }
 
+  .home {
+    &__portfolio {
+      flex-direction: column;
+      padding-top: 15vh;
+    }
+  }
+
   .about {
+    .basic__container {
+      flex-direction: column;
 
+      &--visual {
+        margin-bottom: 2rem;
+      }
+    }
+  }
 
+  .about {
     .basic__container {
       &--timeline .dash {
         display: none;
@@ -15,32 +29,52 @@
 
     .hobbies {
       .icon-size {
-        font-size: 200% !important;
+        font-size: 200%;
       }
 
       .carousel-item {
-          height: 170px !important;
+          height: 30vh;
+      }
+
+      .carousel-item1 .item-container {
+        flex-wrap: wrap;
+        margin-top: 2rem;
       }
     }
   }
 
+  .projects {
+    &__intro h4 {
+      margin-top: 1rem;
+    }
+    text-align: center;
+    a {
+      margin-bottom: 0.4rem !important;
+    }
+  }
+
   .contact {
-    padding-top: 3rem;
+    padding-top: 12%;
+
+    .contact__form {
+      padding: 2rem 10%;
+      
+      .contact__form-item {
+        padding: 0 5%;
+      }
+    }
   }
   
 }
 
 @include media-md {
-
   .home {
-
     &__portfolio {
       flex-direction: column;
     }
   }
 
   .about {
-    
     .basic__container {
       flex-direction: column;
 
@@ -50,14 +84,13 @@
     }
 
     .hobbies {
-
       .carousel-item {
         height: 40vh;
       }
 
       .icon-size {
-        font-size: 300% !important;
-        margin: 0.4rem !important;
+        font-size: 300%;
+        margin: 0.4rem;
       }
 
       h4 {

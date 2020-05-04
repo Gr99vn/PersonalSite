@@ -74,17 +74,19 @@
     .carousel {
       &-item {
         height: 50vh;
-        padding: 0 18%;
-  
-        .item-container .item-single {
-          display: flex;
-          align-items: center;
-        }
+        padding: 0 20%;
+      }
+
+      &-item1 .item-container, &-item3 .sub-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
        
+      &-item1 .item-container {
+        margin-top: 4rem;
+      }
       &-item3 .item-container {
-        // margin-top: 4rem;
-  
         h4 {
           margin-bottom: 2rem;
         }
