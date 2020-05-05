@@ -1,52 +1,44 @@
 # PersonalSite - Project zero, Web programming with Python and JavaScript.
-## The website includes four pages: HOME, ABOUT, PROJECTS and CONTACT corresponding with index.html, about.html, projects.html and contact.html.
+## The project contains many files:
  
-1. Index.html includes:
-  - Header with navigation button and menu.
-  - Main section has:
-    - An avatar image
-    - Three social media icons
-    - Title and text.
-  - Footer
-2. About.html includes:
-  - Header with navigation button and menu.
-  - Main section has:
-    - Basic information sub-section:
-      > Intro avatar, name, intro text
-      >
-      >  Education timeline table
-    - Personality sub-section:
-      > Three icons with title and text below each icon
-      >
-      >  (Use Bootstrap grid model with 3 column)
-    - Employment history sub-section:
-      > Empty yet
-    - Skills sub-section:
-      > Programming languages skill level
-      >
-      > Tools skill level
-      >
-      > Databases skill level
-      >
-      > (Use Bootstrap progress component)
-    - Hobbies sub-section:
-      > My interest title with icons or images and text
-      >
-      > (Use Bootstrap carousel component)
-    - Basic contact sub-section:
-      > Unordered list address and phone number 
-  - Footer
-3. Projects.html includes:
-  - Header with navigation button and menu.
-  - Main section has:
-    - Intro and title of page
-    - Project container:
-      > Some project with image demo, describe and two button
-      >
-      > (Use Bootstrap card component)
-  - Footer
-4. Contact.html includes:
-  - Header with navigation button and menu.
-  - Main section has:
-    - Simple contact form with three inputs,  textarea and a button 
-  - Footer
+> 1. #### Index.html display:
+> - Navigation button and menu.
+> - My avatar image and three social media icons
+> - A name heading and an intro text.
+> - Footer text
+
+> 2. #### About.html display:
+> - Navigation button and menu.
+> - 6 small section:
+>   - Basic information section includes:
+      >> Intro avatar, name heading, intro text
+      >>
+      >>  Education timeline table
+>   - Personality section includes:
+      >> Three icons with title and text below each icon (Use Bootstrap grid model with 3 column)
+>   - Employment history section:
+      >> Empty yet
+>   - Skills section includes:
+      >> Programming languages skill level
+      >>
+      >> Tools skill level
+      >>
+      >> Databases skill level
+      >>
+      >> (Use Bootstrap progress component)
+>   - Hobbies section inculdes:
+      >> Hobby title with icons or images and text (Use Bootstrap carousel component)
+>   - Basic contact section is:
+      >> An Unordered list about my address and phone number 
+>   - Footer
+3. #### Projects.html displays:
+> - Navigation button and menu.
+> - Intro and title of page
+    >> Some project with image demo, describe text and two button preview and source
+    >>
+    >> (Use Bootstrap card component)
+> - Footer
+4. #### Contact.html displays:
+> - Navigation button and menu.
+> - Simple contact form with three inputs,  textarea and a button 
+> - Footer
