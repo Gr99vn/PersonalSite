@@ -37,15 +37,15 @@
 
 > 5. #### _config.scss contains scss variable, mixin, function and global property.
 
-> 6. #### _menu.scss contains scss syntax to modify style of the navigation button and navigation menu.
+> 6. #### _menu.scss contains scss syntax to modify the style of navigation button and navigation menu.
 
-> 7. #### _home.scss contains scss syntax to modify style element of HOME page.
+> 7. #### _home.scss contains scss syntax to modify the style of HOME page elements.
 
-> 8. #### _about.scss contains scss syntax to modify style element of ABOUT page.
+> 8. #### _about.scss contains scss syntax to modify the style of ABOUT page elements.
 
-> 9. #### _projects.scss contains scss syntax to modify style element of PROJECTS page.
+> 9. #### _projects.scss contains scss syntax to modify the style of PROJECTS page elements.
 
-> 10. #### _contact.scss contains scss syntax to modify style element of CONTACT page.
+> 10. #### _contact.scss contains scss syntax to modify the style of CONTACT page elements.
 
 > 11. #### _responsive.scss contains scss syntax to modify mobile-responsive of the website.
 
