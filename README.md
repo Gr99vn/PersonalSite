@@ -11,15 +11,15 @@
 > - Navigation button and menu.
 > - 6 small section:
 >   1. Basic information section includes:
->     - Intro avatar, name heading, intro text.
->     - Education timeline table.
+>       - Intro avatar, name heading, intro text.
+>       - Education timeline table.
 >   2. Personality section includes three icons with title and text below each icon (Use Bootstrap grid model with 3 column).
 >   3. Employment history section: Empty yet.
 >   4. Skills section includes:
->     - Programming languages skill level.
->     - Tools skill level.
->     - Databases skill level.
->     - (Use Bootstrap progress component).
+>       - Programming languages skill level.
+>       - Tools skill level.
+>       - Databases skill level.
+>       - (Use Bootstrap progress component).
 >   5. Hobbies section inculdes hobbies with title, icons or images and text (Use Bootstrap carousel component).
 >   6. Basic contact section is an unordered list about my address and phone number.
 > - Footer.
