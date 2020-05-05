@@ -3,25 +3,21 @@
     font-size: small;
   }
 
-  .home {
-    &__portfolio {
+  #home {
+    .home__portfolio {
       flex-direction: column;
       padding-top: 15vh;
     }
   }
 
-  .about {
+  #about {
     .basic__container {
       flex-direction: column;
 
       &--visual {
         margin-bottom: 2rem;
       }
-    }
-  }
 
-  .about {
-    .basic__container {
       &--timeline .dash {
         display: none;
       }
@@ -47,17 +43,31 @@
     }
   }
 
-  .projects {
-    &__intro h4 {
+  #projects {
+    text-align: center;
+    
+    .projects__intro h4 {
       margin-top: 1rem;
     }
-    text-align: center;
+    
+    .projects__container {
+      padding: 1rem;
+      
+      .col:nth-child(odd) {
+          padding-right: 0;
+      }
+
+      .col:nth-child(even) {
+          padding-left: 0;
+      }
+    }
+
     a {
       margin-bottom: 0.4rem !important;
     }
   }
 
-  .contact {
+  #contact {
     padding-top: 12%;
 
     .contact__form {
@@ -72,13 +82,13 @@
 }
 
 @include media-md {
-  .home {
-    &__portfolio {
+  #home {
+    .home__portfolio {
       flex-direction: column;
     }
   }
 
-  .about {
+  #about {
     .basic__container {
       flex-direction: column;
 
@@ -103,17 +113,27 @@
     }
   }
 
-  .contact__form {
-    padding: 2rem 10%;
-    
-    .contact__form-item {
-      padding: 0 10%;
+  #projects {
+    .projects__container {
+      padding: 1rem;
+    }
+  }
+
+  #contact {
+    .contact__form {
+      padding: 2rem 10%;
+      
+      .contact__form-item {
+        padding: 0 10%;
+      }
     }
   }
 }
 
 @include media-lg {
-  .contact__form {
-    padding: 2rem 10%;
+  #contact {
+    .contact__form {
+      padding: 2rem 10%;
+    }
   }
 }

@@ -136,7 +136,7 @@
   transition-delay: 0.3s;
 }
 
-.home {
+#home {
   height: 100%;
   padding-top: 13%;
   overflow: hidden;
@@ -146,146 +146,146 @@
   background-size: cover;
 }
 
-.home__portfolio {
+#home .home__portfolio {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.home__portfolio-visual {
+#home .home__portfolio-visual {
   padding: 1rem;
 }
 
-.home__portfolio-visual--avatar {
+#home .home__portfolio-visual--avatar {
   width: 10rem;
   border-radius: 50%;
 }
 
-.home__portfolio-visual--icons {
+#home .home__portfolio-visual--icons {
   margin-top: 1rem;
 }
 
-.home__portfolio-visual--icons a {
+#home .home__portfolio-visual--icons a {
   color: #eeeeee;
   padding: 0.4rem;
   transition: all 0.3s ease-in-out;
 }
 
-.home__portfolio-visual--icons a:hover {
+#home .home__portfolio-visual--icons a:hover {
   color: #00adb5;
 }
 
-.home__portfolio-info {
+#home .home__portfolio-info {
   padding: 1rem;
 }
 
-.about {
-  height: 100vh;
-}
-
-.about h2 {
-  margin-bottom: 4rem;
-}
-
-.about .basic, .about .personality, .about .employment, .about .skills, .about .hobbies, .about .about-contact {
+#about .basic, #about .personality, #about .employment, #about .skills, #about .hobbies, #about .about-contact {
   padding: 4rem 10% 0;
 }
 
-.about .basic__container {
+#about {
+  height: 100vh;
+}
+
+#about h2 {
+  margin-bottom: 4rem;
+}
+
+#about .basic__container {
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
 }
 
-.about .basic__container--visual {
+#about .basic__container--visual {
   text-align: center;
 }
 
-.about .basic__container--visual img {
+#about .basic__container--visual img {
   margin-bottom: 1rem;
 }
 
-.about .basic__container--visual p {
+#about .basic__container--visual p {
   margin-top: 2.5rem;
 }
 
-.about .basic__container--timeline th, .about .basic__container td {
+#about .basic__container--timeline th, #about .basic__container td {
   padding: 0.95rem;
 }
 
-.about .basic__container--timeline .plan {
+#about .basic__container--timeline .plan {
   display: block;
   font-size: small;
 }
 
-.about .personality__container-member {
+#about .personality__container-member {
   margin: 0;
   padding: 1rem 2rem;
   text-align: center;
 }
 
-.about .personality__container-member i, .about .personality__container-member h3 {
+#about .personality__container-member i, #about .personality__container-member h3 {
   padding-bottom: 1rem;
 }
 
-.about .personality__container-member i:hover {
+#about .personality__container-member i:hover {
   color: #00adb5;
 }
 
-.about .skills .progress {
+#about .skills .progress {
   margin: 1.5rem 0;
 }
 
-.about .skills .progress-bar:hover {
+#about .skills .progress-bar:hover {
   background: #00adb5 !important;
 }
 
-.about .hobbies .icon-size {
+#about .hobbies .icon-size {
   font-size: 500%;
 }
 
-.about .hobbies .carousel-item {
+#about .hobbies .carousel-item {
   height: 50vh;
   padding: 0 20%;
 }
 
-.about .hobbies .carousel-item1 .item-container, .about .hobbies .carousel-item3 .sub-item {
+#about .hobbies .carousel-item1 .item-container, #about .hobbies .carousel-item3 .sub-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.about .hobbies .carousel-item1 .item-container {
+#about .hobbies .carousel-item1 .item-container {
   margin-top: 4rem;
 }
 
-.about .hobbies .carousel-item3 .item-container h4 {
+#about .hobbies .carousel-item3 .item-container h4 {
   margin-bottom: 2rem;
 }
 
-.about .hobbies .carousel-item3 .item-container p {
+#about .hobbies .carousel-item3 .item-container p {
   margin-top: 2rem;
 }
 
-.about .about-contact__info {
+#about .about-contact__info {
   padding: 0 18% 4rem;
 }
 
-.about .about-contact__info p {
+#about .about-contact__info p {
   font-size: small;
 }
 
-.about .about-contact__info a {
+#about .about-contact__info a {
   text-decoration: none;
   color: #eeeeee;
 }
 
-.about .about-contact__info a:hover {
+#about .about-contact__info a:hover {
   color: #00adb5;
 }
 
-.about footer {
+#about footer {
   position: fixed;
   width: initial;
   right: 0.4rem;
@@ -293,36 +293,47 @@
   transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
-.projects {
+#projects {
   padding: 0 10%;
 }
 
-.projects h2 {
+#projects h2 {
   margin: 2rem 0;
 }
 
-.projects__intro {
+#projects .projects__intro {
   text-align: center;
   padding: 2rem;
   background: linear-gradient(to right, rgba(34, 40, 49, 0.9), rgba(34, 40, 49, 0.3)), url("../img/project-6.jpg") center;
   background-size: cover;
 }
 
-.projects__container {
-  margin: 0;
-  padding: 2rem 1rem;
-  background: #393e46;
+#projects .projects__container {
+  padding: 1rem;
 }
 
-.projects__container .col .card {
+#projects .projects__container .col {
+  margin: 0;
+  padding: 0;
+}
+
+#projects .projects__container .col .card {
   color: #393e46;
 }
 
-.projects__container .col .card .card-body a:hover {
+#projects .projects__container .col .card .card-body a:hover {
   color: #00adb5;
 }
 
-.projects footer {
+#projects .projects__container .col:nth-child(even) {
+  padding-left: 0.4rem;
+}
+
+#projects .projects__container .col:nth-child(odd) {
+  padding-right: 0.4rem;
+}
+
+#projects footer {
   position: fixed;
   width: initial;
   right: 0.4rem;
@@ -330,25 +341,25 @@
   transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
-.contact {
+#contact {
   text-align: center;
 }
 
-.contact__form {
+#contact .contact__form {
   padding: 4rem 10%;
 }
 
-.contact__form-title {
+#contact .contact__form-title {
   margin-bottom: 2rem;
 }
 
-.contact__form-item {
+#contact .contact__form-item {
   display: flex;
   flex-direction: column;
   padding: 0 20%;
 }
 
-.contact__form input, .contact__form textarea, .contact__form .contact__form-btn {
+#contact .contact__form input, #contact .contact__form textarea, #contact .contact__form .contact__form-btn {
   margin-bottom: 1rem;
   outline: none;
   border: none;
@@ -356,7 +367,7 @@
   padding: 0.4rem 1rem;
 }
 
-.contact__form textarea {
+#contact .contact__form textarea {
   min-height: 150px;
   padding: 1rem;
 }
@@ -365,82 +376,94 @@
   * {
     font-size: small;
   }
-  .home__portfolio {
+  #home .home__portfolio {
     flex-direction: column;
     padding-top: 15vh;
   }
-  .about .basic__container {
+  #about .basic__container {
     flex-direction: column;
   }
-  .about .basic__container--visual {
+  #about .basic__container--visual {
     margin-bottom: 2rem;
   }
-  .about .basic__container--timeline .dash {
+  #about .basic__container--timeline .dash {
     display: none;
   }
-  .about .hobbies .icon-size {
+  #about .hobbies .icon-size {
     font-size: 200%;
   }
-  .about .hobbies .carousel-item {
+  #about .hobbies .carousel-item {
     height: 30vh;
   }
-  .about .hobbies .carousel-item1 .item-container {
+  #about .hobbies .carousel-item1 .item-container {
     flex-wrap: wrap;
     margin-top: 2rem;
   }
-  .about .hobbies h4 {
+  #about .hobbies h4 {
     font-size: small;
   }
-  .projects {
+  #projects {
     text-align: center;
   }
-  .projects__intro h4 {
+  #projects .projects__intro h4 {
     margin-top: 1rem;
   }
-  .projects a {
+  #projects .projects__container {
+    padding: 1rem;
+  }
+  #projects .projects__container .col:nth-child(odd) {
+    padding-right: 0;
+  }
+  #projects .projects__container .col:nth-child(even) {
+    padding-left: 0;
+  }
+  #projects a {
     margin-bottom: 0.4rem !important;
   }
-  .contact {
+  #contact {
     padding-top: 12%;
   }
-  .contact .contact__form {
+  #contact .contact__form {
     padding: 2rem 10%;
   }
-  .contact .contact__form .contact__form-item {
+  #contact .contact__form .contact__form-item {
     padding: 0 5%;
   }
 }
 
 @media screen and (min-width: 460px) and (max-width: 768px) {
-  .home__portfolio {
+  #home .home__portfolio {
     flex-direction: column;
   }
-  .about .basic__container {
+  #about .basic__container {
     flex-direction: column;
   }
-  .about .basic__container--visual {
+  #about .basic__container--visual {
     margin-bottom: 2rem;
   }
-  .about .hobbies .carousel-item {
+  #about .hobbies .carousel-item {
     height: 40vh;
   }
-  .about .hobbies .icon-size {
+  #about .hobbies .icon-size {
     font-size: 300%;
     margin: 0.4rem;
   }
-  .about .hobbies h4 {
+  #about .hobbies h4 {
     font-size: small;
   }
-  .contact__form {
+  #projects .projects__container {
+    padding: 1rem;
+  }
+  #contact .contact__form {
     padding: 2rem 10%;
   }
-  .contact__form .contact__form-item {
+  #contact .contact__form .contact__form-item {
     padding: 0 10%;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .contact__form {
+  #contact .contact__form {
     padding: 2rem 10%;
   }
 }

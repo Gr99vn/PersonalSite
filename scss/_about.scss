@@ -1,14 +1,16 @@
-.about {
+%main-padding {
+  padding: 4rem 10% 0;
+}
+
+#about {
   height: 100vh;
   h2 {
     margin-bottom: 4rem;
   }
   
-  .basic, .personality, .employment, .skills, .hobbies, .about-contact {
-    padding: 4rem 10% 0;
-  }
-  
   .basic {
+    @extend %main-padding;
+
     &__container {
       display: flex;
       justify-content: center;
@@ -39,6 +41,8 @@
   }
 
   .personality {
+    @extend %main-padding;
+
     &__container-member {
       margin: 0;
       padding: 1rem 2rem;
@@ -54,9 +58,13 @@
     }
   }
 
-  //.employment {}
+  .employment {
+    @extend %main-padding;
+  }
 
   .skills {
+    @extend %main-padding;
+
     .progress {
       margin: 1.5rem 0;
 
@@ -67,6 +75,8 @@
   }
 
   .hobbies {
+    @extend %main-padding;
+
     .icon-size {
       font-size: 500%;
     }
@@ -99,6 +109,8 @@
   }
 
   .about-contact {
+    @extend %main-padding;
+
     &__info {
       padding: 0 18% 4rem;
 

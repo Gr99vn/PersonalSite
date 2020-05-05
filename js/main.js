@@ -1,3 +1,5 @@
+// Navigation handling on each page
+
 const navBtn = document.querySelector(".nav-btn");
 const hamburger = document.querySelector(".nav-btn__burger");
 const nav = document.querySelector(".nav");
@@ -5,6 +7,7 @@ const navMenu = document.querySelector(".nav-menu");
 const navItems = document.querySelectorAll(".nav-menu__item");
 
 let showMenu = false;
+
 
 navBtn.addEventListener("click", () => {
   if (!showMenu) {

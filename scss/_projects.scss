@@ -1,11 +1,12 @@
-.projects {
+#projects {
   padding: 0 10%;
 
   h2 {
     margin: 2rem 0;
   }
 
-  &__intro {
+
+  .projects__intro {
     text-align: center;
     padding: 2rem;
     background: linear-gradient(
@@ -17,17 +18,28 @@
     background-size: cover;
     }
 
-  &__container {
-    margin: 0;
-    padding: 2rem 1rem;
-    background: $secondary-color;
+  .projects__container {
+    padding: 1rem;
+    
+    .col {
+      margin: 0;
+      padding: 0;
 
-    .col .card {
-      color: set-text-color($fourth-color);
-
-      .card-body a:hover {
-        color: $tertiary-color;
+      .card {
+        color: set-text-color($fourth-color);
+  
+        .card-body a:hover {
+          color: $tertiary-color;
+        }
       }
+    }
+
+    .col:nth-child(even) {
+      padding-left: 0.4rem;
+    }
+    
+    .col:nth-child(odd) {
+      padding-right: 0.4rem;
     }
   }
 

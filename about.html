@@ -23,10 +23,16 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+
+    <!-- Header -->
     <header>
+
+      <!-- Navigation button -->
       <div class="nav-btn">
         <div class="nav-btn__burger"></div>
       </div>
+
+      <!-- Navigation menu -->
       <nav class="nav">
         <ul class="nav-menu">
           <li class="nav-menu__item">
@@ -53,17 +59,25 @@
       </nav>
     </header>
 
+    <!-- Main section -->
     <main>
-      <section class="about">
+      <section id="about">
+
+        <!-- Basic information sub-section -->
         <div class="basic">
           <h2 class="basic-title">| BASIC INFORMATION</h2>
+          
           <div class="basic__container">
+
+            <!-- Intro -->
             <div class="basic__container--visual">
               <img src="img/avatar.jpg" class="visual-avatar"/>
               <h3>Trung Duc</h3>
               <h4>Tran</h4>
               <p>Web developer</p>
             </div>
+
+            <!-- Education timeline table -->
             <div class="basic__container--timeline">
               <table class="table table-striped table-dark">
                 <tr>
@@ -95,8 +109,11 @@
           </div>
         </div>
       
+        <!-- Personality sub-section -->
         <div class="personality">
           <h2 class="personality-title">| PERSONALITY</h2>
+          
+          <!-- icons, it's title and text -->
           <div class="personality__container-member row">
             <div class="personality__container-member col-lg-4">
               <i class="fas fa-check-circle fa-4x"></i>
@@ -116,18 +133,25 @@
           </div>
         </div>
   
+        <!-- Employment history sub-section -->
         <div class="employment">
           <h2 class="employment-title">| EMPLOYMENT HISTORY</h2>
+
           <div class="employment__container">
             <p>Nothing yet.</p>
           </div>
         </div>
   
+        <!-- Skills section -->
         <div class="skills">
             <h2 class="skills-title">| SKILLS</h2>
+
             <div class="skills__container row">
+
+              <!-- Skill in programming languages -->
               <div class="skills__container--language col-6">
                 <p>Language</p>
+
                 <div class="progress">
                   <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">Assembly</div>
                 </div>
@@ -150,7 +174,11 @@
                   <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Python</div>
                 </div>
               </div>
+
+              <!-- Skills in tools & databases -->
               <div class="skills__container--tool-db  col-6">
+
+                <!-- Tools -->
                 <div class="tools">
                   <p>Tools</p>
                   <div class="progress">
@@ -164,6 +192,7 @@
                   </div>
                 </div>
                 
+                <!-- Databases -->
                 <div class="database">
                   <p>Databases</p>
                   <div class="progress">
@@ -180,10 +209,15 @@
             </div>
         </div>
   
+        <!-- Hobbies sub-section -->
         <div class="hobbies">
           <h2 class="hobbies-title">| HOBBIES</h2>
+
+          <!-- Hobbies carousel -->
           <div id="hobbies-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
+
+              <!-- Coding -->
               <div class="carousel-item carousel-item1 active">
                 <h4>CODING <></h4>
                 <p>
@@ -196,6 +230,8 @@
                   <i class="fab icon-size fa-python"></i>     
                 </div>
               </div>
+
+              <!-- Photography -->
               <div class="carousel-item carousel-item2">
                 <h4>PHOTOGRAPHY</h4>
                 <p>
@@ -207,6 +243,8 @@
                   <img src="img/p5.jpg" class="col-4">
                 </div>
               </div>
+
+              <!-- Movie, music and game -->
               <div class="carousel-item carousel-item3">
                 <div class="item-container">
                   <div class="sub-item">
@@ -227,6 +265,8 @@
                 </div>
               </div>
             </div>
+
+            <!-- Carousel control slide buttons -->
             <a class="carousel-control-prev" href="#hobbies-carousel" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
@@ -238,8 +278,10 @@
           </div>
         </div>
   
+        <!-- Basic contact information -->
         <div class="about-contact">
           <h2 class="about-contact__title">| CONTACT</h2>
+
           <ul class="about-contact__info">
             <li class="h4">ML - HD - HN</li>
             <p>Address</p>
@@ -249,6 +291,7 @@
           </ul>  
         </div>
         
+        <!-- Footer -->
         <footer>&copy; Copyright 2020</footer>
       </section>
     </main>
@@ -270,11 +313,13 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+
     <!-- Font awesome -->
     <script
       src="https://kit.fontawesome.com/dcc0a8247b.js"
       crossorigin="anonymous"
     ></script>
+    
     <!-- js -->
     <script src="js/main.js"></script>
   </body>

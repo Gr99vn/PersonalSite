@@ -1,4 +1,4 @@
-.home {
+#home {
   height: 100%;
   padding-top: 13%;
   overflow: hidden;
@@ -13,7 +13,7 @@
   background-size: cover;
     
 
-  &__portfolio {
+  .home__portfolio {
     display: flex;
     justify-content: center;
     align-items: center;
