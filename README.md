@@ -23,23 +23,34 @@
 >   5. Hobbies section inculdes hobbies with title, icons or images and text (Use Bootstrap carousel component).
 >   6. Basic contact section is an unordered list about my address and phone number.
 > - Footer.
-3. #### Projects.html displays:
+
+> 3. #### Projects.html displays:
 > - Navigation button and menu.
 > - Intro avatar name heading and title of page
 > - Some project with image demo, describe text, two button - preview and source(Use Bootstrap card component).
 > - Footer.
-4. #### Contact.html displays:
+
+> 4. #### Contact.html displays:
 > - Navigation button and menu.
 > - Simple contact form with three inputs, textarea and a submit button. 
 > - Footer.
 
-5. #### _config.scss contains scss variable, mixin, function and global property.
-6. #### _menu.scss contains scss syntax to modify style of the navigation button and navigation menu.
-7. #### _home.scss contains scss syntax to modify style element of HOME page.
-8. #### _about.scss contains scss syntax to modify style element of ABOUT page.
-9. #### _projects.scss contains scss syntax to modify style element of PROJECTS page.
-10. #### _contact.scss contains scss syntax to modify style element of CONTACT page.
-11. #### _responsive.scss contains scss syntax to modify mobile-responsive of the website.
-12. #### main.scss: combine these scss files above. The scss compiler compile this file to main.css file.
-13. #### main.css is a style sheet file that directly changes the look of the website.
-14. #### main.js contain some JavaScript code, which handle how the navigation menu button works. It also validates and handles contact form when the form is submitted.
+> 5. #### _config.scss contains scss variable, mixin, function and global property.
+
+> 6. #### _menu.scss contains scss syntax to modify style of the navigation button and navigation menu.
+
+> 7. #### _home.scss contains scss syntax to modify style element of HOME page.
+
+> 8. #### _about.scss contains scss syntax to modify style element of ABOUT page.
+
+> 9. #### _projects.scss contains scss syntax to modify style element of PROJECTS page.
+
+> 10. #### _contact.scss contains scss syntax to modify style element of CONTACT page.
+
+> 11. #### _responsive.scss contains scss syntax to modify mobile-responsive of the website.
+
+> 12. #### main.scss: combine these scss files above. The scss compiler compile this file to main.css file.
+
+> 13. #### main.css is a style sheet file that directly changes the look of the website.
+
+> 14. #### main.js contain some JavaScript code, which handle how the navigation menu button works. It also validates and handles contact form when the form is submitted.
