@@ -37,7 +37,7 @@
 
 > 5. #### _config.scss contains scss variable, mixin, function and global property.
 
-> 6. #### _menu.scss contains scss syntax to modify the style of navigation button and navigation menu.
+> 6. #### _menu.scss contains scss syntax to modify the style and animation of navigation button and navigation menu.
 
 > 7. #### _home.scss contains scss syntax to modify the style of HOME page elements.
 
